@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>main</title>
+    <style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'menu main right'
+    'menu footer footer';
+  background-color: #2196F3;
+  height: 1000px;
+}
+
+.grid-container > div {
+  background-color: #2196F3;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: center;
+  background-color: #2196F3;
+  grid-gap: 30px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 2px;
+  font-size: 30px;
+  height: 150px;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+</style>
+  <body>
+    <div class="grid-container">
+      <div class="item1"></div>
+      <div class="item2"></div>
+      <div class="item3">
+        <div class="main-container">
+          <div class="grid-item">
+            <a href="https://drive.google.com/drive/u/0/folders/1HTcJsdkAiHadSy3R5yu1RjaZc4Z83-yL" title="구글 드라이브">
+              <img src="./image/0maker.jpg" alt="메이커 교육 자료" width="100%">
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="https://drive.google.com/drive/u/0/folders/1HTcJsdkAiHadSy3R5yu1RjaZc4Z83-yL" title="구글 드라이브">
+              <img src="./image/0coding.jpg" alt="코딩 교육 자료" width="100%">
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="https://drive.google.com/drive/u/0/folders/1HTcJsdkAiHadSy3R5yu1RjaZc4Z83-yL" title="구글 드라이브">
+              <img src="./image/0robot.jpg" alt="로봇 교육 자료" width="100%">
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="https://drive.google.com/drive/u/0/folders/1HTcJsdkAiHadSy3R5yu1RjaZc4Z83-yL" title="구글 드라이브">
+              <img src="./image/0side.jpg" alt="교구 자료" width="100%">
+            </a>
+          </div>
+          <div class="grid-item">
+            <img src="./image/0me.jpg" alt="마중물" width="100%">
+          </div>
+          <div class="grid-item">
+            <a href="https://drive.google.com/drive/u/0/folders/1HTcJsdkAiHadSy3R5yu1RjaZc4Z83-yL" title="구글 드라이브">
+              <img src="./image/0book.jpg" alt="책 자료" width="100%">
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="https://drive.google.com/drive/u/0/folders/1HTcJsdkAiHadSy3R5yu1RjaZc4Z83-yL" title="구글 드라이브">
+              <img src="./image/0unplug.jpg" alt="언플러그드 자료" width="100%">
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="https://drive.google.com/drive/u/0/folders/1HTcJsdkAiHadSy3R5yu1RjaZc4Z83-yL" title="구글 드라이브">
+              <img src="./image/0semina.jpg" alt="컨퍼런스 세미나 자료" width="100%">
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="https://drive.google.com/drive/u/0/folders/1HTcJsdkAiHadSy3R5yu1RjaZc4Z83-yL" title="구글 드라이브">
+              <img src="./image/0IOT.jpg" alt="IOT 교육 자료" width="100%">
+            </a>
+          </div>
+        </div></div>
+      <div class="item4"></div>
+      <div class="item5"></div>
+    </div>
+
+
+  </body>
+</html>
